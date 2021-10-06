@@ -290,6 +290,7 @@ select {
                             <select name="htlang" onchange='this.form.submit();'>
                               <option value="de" <?php if($_SESSION['htlang']=="de") echo 'selected="selected"'; ?>>Deutsch</option>
                               <option value="en" <?php if($_SESSION['htlang']=="en") echo 'selected="selected"'; ?>>English</option>
+                              <option value="cs" <?php if($_SESSION['htlang']=="cs") echo 'selected="selected"'; ?>>Czech</option>
                             </select>
                             <input type="hidden" name="dir" value="<?php echo $dir ?>">
                           </form>
